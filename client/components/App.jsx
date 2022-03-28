@@ -10,7 +10,7 @@ import Trails from "./Trails.jsx"
 import TrailsList from "./TrailsList.jsx"
 import UserProfile from "./UserProfile.jsx"
 
-const App = () => {
+const App = () => { // Should this be named TrailFeathers now
   return (
     <>
       <h1 className="Header" alignment="center">
@@ -22,7 +22,7 @@ const App = () => {
       <TrailsList/>
       <Trails/>
       <Quartermaster/>
-      <TrailFeathers/>
+      <BirdList/>
     </>
   );
 };
